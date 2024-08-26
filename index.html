@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex justify-center items-center">
+    <div class="container max-w-sm">
+        <header class="text-center ">
+            <h1 class="text-4xl mt-4 mb-4">ToDo-list</h1>
+            <form class="search">
+                <input class="rounded-lg p-1 border-3 border-solid hover:bg-black text-white" type="search" name="search" placeholder="search">
+            </form>
+        </header>
+
+        <ul class="todos divide-y divide-blue-200 border border-gray-200 rounded-lg">
+            <li class="p-6 flex justify-between gap-4 items-center">
+                <span>Play mariocart</span>
+                <i class="fas fa-trash delete"></i>
+            </li>
+
+            <li class="p-6 flex justify-between gap-4 items-center">
+                <span>Play valorant</span>
+                <i class="fas fa-trash delete"></i>
+            </li>
+
+            <li class="p-6 flex justify-between gap-4 items-center">
+                <span>Make trek plan</span>
+                <i class="fas fa-trash delete"></i>
+            </li>
+
+            <li class="p-6 flex justify-between gap-4 items-center">
+                <span>Make dinner</span>
+                <i class="fas fa-trash delete"></i>
+            </li>
+            
+          </ul>
+          <form class="add text-center my-4">
+            <label class="text-slate-400 my-3">Add a new todo...</label></br>
+            <input type="text" class="my-4 from-50% pt-3" name="add"  />
+          </form>
+
+    </div>
+    </div>
+    
+
+<script src="sandbox.js"></script>
+</body>
+</html>
